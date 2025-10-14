@@ -25,3 +25,33 @@ Funciones (convertir, pedir_cantidad, mostrar_menu).
 Validaciones: no acepta números negativos ni entradas inválidas.
 
 Historial de conversiones registrado en lista y mostrado al finalizar.
+
+2. Formulario interactivo (formulario_usuario.py)
+
+Permite al usuario registrar información básica de forma segura y validada.
+
+Características:
+
+Solicita datos del usuario: nombre, correo electrónico, edad, aceptación de términos y deseo de ser contactado.
+
+Tipos de datos usados:
+
+str para nombre y correo electrónico
+
+int para edad
+
+bool para aceptación de términos y contacto
+
+Validaciones implementadas:
+
+Nombre solo con letras y espacios, no vacío
+
+Correo electrónico con formato básico (@ y .)
+
+Edad positiva y numérica
+
+Sí/No para respuestas booleanas
+
+Manejo de errores mediante bucles y validación de entrada, evitando que el formulario se cierre por datos inválidos.
+
+Muestra un resumen de los datos ingresados, incluyendo el nombre en el mensaje de agradecimiento.
