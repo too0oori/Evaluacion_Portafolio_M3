@@ -55,3 +55,19 @@ Sí/No para respuestas booleanas
 Manejo de errores mediante bucles y validación de entrada, evitando que el formulario se cierre por datos inválidos.
 
 Muestra un resumen de los datos ingresados, incluyendo el nombre en el mensaje de agradecimiento.
+
+🧮 Ejercicio 3 — Determinar si un número es positivo, negativo o cero
+
+Descripción:
+El programa solicita un número al usuario y muestra si es positivo, negativo o cero.
+Incluye manejo de errores para evitar entradas no numéricas y permite repetir el proceso o salir escribiendo “salir”.
+
+Conceptos aplicados:
+
+Tipos de datos numéricos (float)
+
+Condicionales (if, elif, else)
+
+Excepciones (try, except)
+
+Bucle interactivo (while)
