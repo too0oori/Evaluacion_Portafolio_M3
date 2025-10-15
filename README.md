@@ -71,3 +71,9 @@ Condicionales (if, elif, else)
 Excepciones (try, except)
 
 Bucle interactivo (while)
+
+Ejercicio 3 – Generador de Tablas y Factoriales
+
+Este programa permite al usuario generar tablas de multiplicar, calcular factoriales y realizar multiplicaciones infinitas.
+Hace uso de bucles for y while, manejo de excepciones y un menú interactivo en consola.
+Demuestra el uso de estructuras iterativas para resolver distintos tipos de cálculos.
