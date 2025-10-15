@@ -1,85 +1,154 @@
-# Evaluacion_Portafolio_M3
+Evaluación Portafolio — Módulo 3
 
-Portafolio del Módulo 3
+📘 Descripción General
 
-Proyecto realizado por Sofía Lagos
-Bootcamp Desarrollo Full Stack Python
+Este portafolio reúne una serie de programas desarrollados durante el Módulo 3 del Bootcamp Desarrollo Full Stack Python, enfocados en aplicar los fundamentos del lenguaje Python.
 
-Este repositorio contiene una serie de programas que se enfocan en la aplicación de conceptos y procedimientos que hemos visto con Python, incluyendo variables, operadores, tipos de datos, estructuras condicionales, bucles, funciones y manejo de estructuras de datos como listas y diccionarios.
+A lo largo de los ejercicios se trabajan conceptos clave como:
 
-🧩 Programas desarrollados
-1. Conversor de monedas (conversor_monedas.py)
+Variables y operadores
 
-Convierte entre CLP, USD, EUR y CNY de manera interactiva, usando un menú en consola.
+Tipos de datos
+
+Estructuras condicionales
+
+Bucles for y while
+
+Funciones
+
+Manejo de errores y validación de entrada
+
+Estructuras de datos (listas, diccionarios)
+
+Cada programa aborda una problemática práctica y está implementado en su propia carpeta dentro del repositorio.
+
+🗂️ Estructura del Repositorio
+
+Evaluacion_Portafolio_M3/
+│
+├── 1_Conversor/
+│   └── conversor_monedas.py
+│
+├── 2_Formulario/
+│   └── formulario.py
+│
+├── 3_Números/
+│   └── numeros.py
+│
+├── 4_Generador_multiplicacion/
+│   └── multiplicacion.py
+│
+├── 5_Agenda_Contactos/
+│   └── agenda.py
+│
+├── 6_calculadora_area/
+│   └── calculadora_area.py
+│
+└── README.md
+
+💡 Programas Desarrollados
+1️⃣ Conversor de Monedas (1_Conversor/conversor_monedas.py)
+
+Convierte entre CLP, USD, EUR y CNY mediante un menú interactivo.
 
 Conceptos aplicados:
 
-Variables y operadores para cálculos de conversión.
+Variables, operadores y condicionales
 
-Condicionales if/elif/else para seleccionar la operación.
+Bucle while para mantener el menú
 
-Bucle while para mantener el menú hasta salir.
+Funciones (convertir, mostrar_menu, etc.)
 
-Funciones (convertir, pedir_cantidad, mostrar_menu).
+Validaciones: no acepta valores negativos ni entradas inválidas
 
-Validaciones: no acepta números negativos ni entradas inválidas.
+Registro de conversiones en una lista
 
-Historial de conversiones registrado en lista y mostrado al finalizar.
+2️⃣ Formulario Interactivo (2_Formulario/formulario_usuario.py)
 
-2. Formulario interactivo (formulario_usuario.py)
+Permite registrar datos del usuario con validaciones robustas.
 
-Permite al usuario registrar información básica de forma segura y validada.
+Datos solicitados:
+
+Nombre (solo letras y espacios)
+
+Correo electrónico (debe incluir @ y .)
+
+Edad (numérica y positiva)
+
+Aceptación de términos y deseo de ser contactado
 
 Características:
 
-Solicita datos del usuario: nombre, correo electrónico, edad, aceptación de términos y deseo de ser contactado.
+Tipos de datos: str, int, bool
 
-Tipos de datos usados:
+Validaciones mediante bucles y control de errores
 
-str para nombre y correo electrónico
+Mensaje final personalizado con el nombre del usuario
 
-int para edad
+3️⃣ Determinar si un Número es Positivo, Negativo o Cero (3_Numero_Positivo/numero_positivo.py)
 
-bool para aceptación de términos y contacto
-
-Validaciones implementadas:
-
-Nombre solo con letras y espacios, no vacío
-
-Correo electrónico con formato básico (@ y .)
-
-Edad positiva y numérica
-
-Sí/No para respuestas booleanas
-
-Manejo de errores mediante bucles y validación de entrada, evitando que el formulario se cierre por datos inválidos.
-
-Muestra un resumen de los datos ingresados, incluyendo el nombre en el mensaje de agradecimiento.
-
-🧮 Ejercicio 3 — Determinar si un número es positivo, negativo o cero
-
-Descripción:
-El programa solicita un número al usuario y muestra si es positivo, negativo o cero.
-Incluye manejo de errores para evitar entradas no numéricas y permite repetir el proceso o salir escribiendo “salir”.
+Solicita un número al usuario e indica si es positivo, negativo o cero.
 
 Conceptos aplicados:
 
-Tipos de datos numéricos (float)
+Condicionales if / elif / else
 
-Condicionales (if, elif, else)
+Manejo de excepciones con try / except
 
-Excepciones (try, except)
+Repetición controlada mediante bucle while
 
-Bucle interactivo (while)
+4️⃣ Generador de Tablas y Factoriales (4_Tablas_y_Factoriales/tablas_factoriales.py)
 
-Ejercicio 4 – Generador de Tablas y Factoriales
+Permite generar tablas de multiplicar, calcular factoriales y ejecutar multiplicaciones infinitas.
 
-Este programa permite al usuario generar tablas de multiplicar, calcular factoriales y realizar multiplicaciones infinitas.
-Hace uso de bucles for y while, manejo de excepciones y un menú interactivo en consola.
-Demuestra el uso de estructuras iterativas para resolver distintos tipos de cálculos.
+Conceptos aplicados:
 
-Ejercicio 5 – Agenda de Contactos
+Bucles for y while
 
-Este programa implementa una agenda de contactos en consola utilizando un diccionario para almacenar los datos.
-Permite agregar, visualizar y validar contactos, asegurando que los nombres no contengan números y que los correos y teléfonos sean válidos.
-Demuestra el uso de estructuras de datos (dict), validaciones, bucles y control de flujo en Python.
+Recursividad en el cálculo del factorial
+
+Menú interactivo y manejo de errores
+
+Aplicación de estructuras iterativas
+
+5️⃣ Agenda de Contactos (5_Agenda_Contactos/agenda_contactos.py)
+
+Simula una pequeña agenda donde el usuario puede agregar y visualizar contactos.
+
+Características:
+
+Almacenamiento en diccionarios
+
+Validaciones de nombre, correo y teléfono
+
+Menú interactivo con opciones dinámicas
+
+Uso de bucles, estructuras de datos y control de flujo
+
+6️⃣ Cálculo de Áreas de Figuras Geométricas (6_Areas_Geometricas/areas_figuras.py)
+
+Calcula el área de distintas figuras: rectángulo, triángulo, círculo y cuadrado.
+
+Conceptos aplicados:
+
+Funciones independientes para cada figura
+
+Condicionales y validaciones numéricas
+
+Interacción mediante menú en consola
+
+🧰 Tecnologías Utilizadas
+
+Lenguaje: Python 3.x
+
+Entorno: Visual Studio Code / Terminal
+
+Paradigma: Programación estructurada
+
+Control de versiones: Git y GitHub
+
+Autora
+
+Sofía Lagos
+Estudiante del Bootcamp Desarrollo Full Stack Python
+Proyecto realizado como parte del Módulo 3 — Fundamentos de Python
