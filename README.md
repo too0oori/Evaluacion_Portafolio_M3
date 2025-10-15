@@ -72,8 +72,14 @@ Excepciones (try, except)
 
 Bucle interactivo (while)
 
-Ejercicio 3 – Generador de Tablas y Factoriales
+Ejercicio 4 – Generador de Tablas y Factoriales
 
 Este programa permite al usuario generar tablas de multiplicar, calcular factoriales y realizar multiplicaciones infinitas.
 Hace uso de bucles for y while, manejo de excepciones y un menú interactivo en consola.
 Demuestra el uso de estructuras iterativas para resolver distintos tipos de cálculos.
+
+Ejercicio 5 – Agenda de Contactos
+
+Este programa implementa una agenda de contactos en consola utilizando un diccionario para almacenar los datos.
+Permite agregar, visualizar y validar contactos, asegurando que los nombres no contengan números y que los correos y teléfonos sean válidos.
+Demuestra el uso de estructuras de datos (dict), validaciones, bucles y control de flujo en Python.
