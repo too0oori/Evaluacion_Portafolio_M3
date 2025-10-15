@@ -1,38 +1,108 @@
-Evaluación Portafolio — Módulo 3
+# Portafolio Módulo 3 - Fundamentos de Python
 
-📘 Descripción General
+Este repositorio contiene los programas desarrollados durante el **Módulo 3** del **Bootcamp Desarrollo Full Stack Python**, enfocados en la aplicación práctica de los conceptos fundamentales del lenguaje.  
+Cada programa resuelve un problema específico, utilizando estructuras, tipos de datos, funciones y control de flujo.
 
-Este portafolio reúne una serie de programas desarrollados durante el Módulo 3 del Bootcamp Desarrollo Full Stack Python, enfocados en aplicar los fundamentos del lenguaje Python.
+---
 
-A lo largo de los ejercicios se trabajan conceptos clave como:
+## 📌 Objetivos del módulo
 
-Variables y operadores
+- Comprender y aplicar los fundamentos de Python.  
+- Desarrollar programas que utilicen variables, operadores, estructuras de control y funciones.  
+- Modularizar y reutilizar código de manera eficiente.  
+- Utilizar estructuras de datos como listas y diccionarios.  
+- Subir el trabajo a GitHub para mantener el historial del proyecto.  
 
-Tipos de datos
+---
 
-Estructuras condicionales
+## 🧩 Programas desarrollados
 
-Bucles for y while
+### 1️⃣ Conversor de monedas (`1_Conversor/conversor_monedas.py`)
+Convierte entre CLP, USD, EUR y CNY de manera interactiva, usando un menú en consola.  
 
-Funciones
+**Conceptos aplicados:**
+- Variables y operadores para cálculos de conversión.  
+- Condicionales `if/elif/else` para seleccionar la operación.  
+- Bucle `while` para mantener el menú hasta salir.  
+- Funciones (`convertir`, `pedir_cantidad`, `mostrar_menu`).  
+- Validaciones: no acepta números negativos ni entradas inválidas.  
+- Historial de conversiones registrado en una lista y mostrado al finalizar.  
 
-Manejo de errores y validación de entrada
+---
 
-Estructuras de datos (listas, diccionarios)
+### 2️⃣ Formulario interactivo (`2_Formulario/formulario.py`)
+Permite al usuario registrar información básica de forma segura y validada.  
 
-Cada programa aborda una problemática práctica y está implementado en su propia carpeta dentro del repositorio.
+**Características:**
+- Solicita nombre, correo electrónico, edad, aceptación de términos y deseo de ser contactado.  
+- Tipos de datos usados:
+  - `str` para nombre y correo electrónico  
+  - `int` para edad  
+  - `bool` para aceptación de términos y contacto  
+- Validaciones implementadas:
+  - Nombre solo con letras y espacios, no vacío  
+  - Correo electrónico con formato básico (`@` y `.`)  
+  - Edad positiva y numérica  
+  - Sí/No para respuestas booleanas  
+- Manejo de errores mediante bucles y validación de entrada, evitando cierres por datos inválidos.  
+- Muestra un resumen de los datos ingresados, incluyendo el nombre en el mensaje de agradecimiento.  
 
-🗂️ Estructura del Repositorio
+---
 
+### 3️⃣ Determinar si un número es positivo, negativo o cero (`3_Numeros/numeros.py`)
+Solicita un número al usuario y muestra si es **positivo**, **negativo** o **cero**.  
+
+**Conceptos aplicados:**
+- Tipos de datos numéricos (`float`).  
+- Condicionales (`if`, `elif`, `else`).  
+- Excepciones (`try`, `except`).  
+- Bucle interactivo (`while`).  
+
+---
+
+### 4️⃣ Generador de Tablas y Factoriales (`4_Generador_multiplicacion/multiplicacion.py`)
+Permite generar tablas de multiplicar, calcular factoriales y realizar multiplicaciones infinitas.  
+
+**Conceptos aplicados:**
+- Bucles `for` y `while` para repetir acciones.  
+- Funciones y manejo de excepciones.  
+- Menú interactivo en consola.  
+- Uso de estructuras iterativas para resolver distintos tipos de cálculos.  
+
+---
+
+### 5️⃣ Agenda de Contactos (`5_Agenda_Contactos/agenda.py`)
+Implementa una agenda de contactos en consola utilizando un diccionario para almacenar los datos.  
+
+**Características:**
+- Permite agregar, visualizar y validar contactos.  
+- Asegura que los nombres no contengan números y que los correos y teléfonos sean válidos.  
+- Demuestra el uso de estructuras de datos (`dict`), validaciones, bucles y control de flujo.  
+
+---
+
+### 6️⃣ Cálculo de áreas de figuras geométricas (`6_Calculadora_area/calculadora_area.py`)
+Permite calcular el área de diferentes figuras geométricas (rectángulo, triángulo, círculo y cuadrado).  
+
+**Conceptos aplicados:**
+- Funciones independientes para cada figura.  
+- Menú interactivo con validaciones.  
+- Bucle `while` para repetir operaciones.  
+- Demuestra el uso de funciones, estructuras de control y tipos numéricos en Python.  
+
+---
+
+## 🗃️ Estructura del repositorio
+
+```bash
 Evaluacion_Portafolio_M3/
-│
 ├── 1_Conversor/
 │   └── conversor_monedas.py
 │
 ├── 2_Formulario/
 │   └── formulario.py
 │
-├── 3_Números/
+├── 3_Numeros/
 │   └── numeros.py
 │
 ├── 4_Generador_multiplicacion/
@@ -41,114 +111,27 @@ Evaluacion_Portafolio_M3/
 ├── 5_Agenda_Contactos/
 │   └── agenda.py
 │
-├── 6_calculadora_area/
+├── 6_Calculadora_area/
 │   └── calculadora_area.py
 │
 └── README.md
 
-💡 Programas Desarrollados
-1️⃣ Conversor de Monedas (1_Conversor/conversor_monedas.py)
+---
 
-Convierte entre CLP, USD, EUR y CNY mediante un menú interactivo.
+## 🛠 Tecnologías utilizadas
 
-Conceptos aplicados:
+- **Lenguaje:** Python 3  
+- **Editor:** Visual Studio Code / Terminal  
+- **Control de versiones:** Git y GitHub  
+- **Entorno:** Consola interactiva (CLI)  
 
-Variables, operadores y condicionales
+---
 
-Bucle while para mantener el menú
+## Autoría
 
-Funciones (convertir, mostrar_menu, etc.)
+Proyecto desarrollado por **Sofía Lagos**  
+📚 Bootcamp Desarrollo Full Stack Python — Módulo 3  
+🌐 GitHub: [github.com/too0oori](https://github.com/too0oori)
 
-Validaciones: no acepta valores negativos ni entradas inválidas
+---
 
-Registro de conversiones en una lista
-
-2️⃣ Formulario Interactivo (2_Formulario/formulario_usuario.py)
-
-Permite registrar datos del usuario con validaciones robustas.
-
-Datos solicitados:
-
-Nombre (solo letras y espacios)
-
-Correo electrónico (debe incluir @ y .)
-
-Edad (numérica y positiva)
-
-Aceptación de términos y deseo de ser contactado
-
-Características:
-
-Tipos de datos: str, int, bool
-
-Validaciones mediante bucles y control de errores
-
-Mensaje final personalizado con el nombre del usuario
-
-3️⃣ Determinar si un Número es Positivo, Negativo o Cero (3_Numero_Positivo/numero_positivo.py)
-
-Solicita un número al usuario e indica si es positivo, negativo o cero.
-
-Conceptos aplicados:
-
-Condicionales if / elif / else
-
-Manejo de excepciones con try / except
-
-Repetición controlada mediante bucle while
-
-4️⃣ Generador de Tablas y Factoriales (4_Tablas_y_Factoriales/tablas_factoriales.py)
-
-Permite generar tablas de multiplicar, calcular factoriales y ejecutar multiplicaciones infinitas.
-
-Conceptos aplicados:
-
-Bucles for y while
-
-Recursividad en el cálculo del factorial
-
-Menú interactivo y manejo de errores
-
-Aplicación de estructuras iterativas
-
-5️⃣ Agenda de Contactos (5_Agenda_Contactos/agenda_contactos.py)
-
-Simula una pequeña agenda donde el usuario puede agregar y visualizar contactos.
-
-Características:
-
-Almacenamiento en diccionarios
-
-Validaciones de nombre, correo y teléfono
-
-Menú interactivo con opciones dinámicas
-
-Uso de bucles, estructuras de datos y control de flujo
-
-6️⃣ Cálculo de Áreas de Figuras Geométricas (6_Areas_Geometricas/areas_figuras.py)
-
-Calcula el área de distintas figuras: rectángulo, triángulo, círculo y cuadrado.
-
-Conceptos aplicados:
-
-Funciones independientes para cada figura
-
-Condicionales y validaciones numéricas
-
-Interacción mediante menú en consola
-
-🧰 Tecnologías Utilizadas
-
-Lenguaje: Python 3.x
-
-Entorno: Visual Studio Code / Terminal
-
-Paradigma: Programación estructurada
-
-Control de versiones: Git y GitHub
-
-Autora
-
-Sofía Lagos
-Estudiante del Bootcamp Desarrollo Full Stack Python
-Proyecto realizado como parte del Módulo 3 — Fundamentos de Python
